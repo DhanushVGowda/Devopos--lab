@@ -9,6 +9,7 @@ pipeline {
 		sh '''
 		echo "by the way this is my second command testing"
 		df -kh
+		uptime
 		'''
             }
         }
